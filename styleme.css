@@ -1,0 +1,33 @@
+body{
+    background-color:#3a2b2b;
+}
+h1{
+    color: rgb(70, 33, 7);
+    text-align: center;
+    background-color: rgb(145, 126, 52);
+}
+
+h2{
+    color: rgb(70, 33, 7);
+    background-color: rgb(145, 126, 52);
+}
+
+p{
+    font-size: medium;
+    font-weight: 100;
+    font-style: italic;
+    color: cornsilk;
+}
+.mood{
+    width: 350px;
+    height: 320px;
+}
+li{
+    color: cornsilk;
+}
+a{
+    color: rgb(85, 25, 196);
+}
+  footer{
+    color: cornsilk;
+  }
