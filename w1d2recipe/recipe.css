@@ -1,0 +1,39 @@
+h2{
+    color:#A4A400 ;
+    background-color: #F0F0F0;
+    text-decoration: underline;
+    font-size:18pt ;
+    font-family: "Lucida Sans Unicode";
+
+}
+
+#header {
+    color: #A4A400;
+    background-color: #F0F0F0 ;
+    font-family: "Lucida Sans Unicode";
+    text-align: center;
+    font-size: 22pt;
+    text-decoration: underline;
+}
+
+body{
+    background-color: white;
+    color: #404040;
+    font-size: 11pt;
+    font-family: Georgia;
+
+}
+#divone p {
+    list-style: none;
+    text-align: left;   
+    line-height: 5px;
+}
+blockquote {
+    background-color: #FFFFA8 ;
+}
+blockquote p {
+    font-style: italic;
+}
+#cake {
+    text-decoration:line-through;
+}
