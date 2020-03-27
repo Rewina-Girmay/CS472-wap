@@ -1,0 +1,96 @@
+body{
+    background-image: url(/movieImage/background.png);
+}
+header{
+    text-align: center;
+    background-image: url(/movieImage/bannerbg.png);
+}
+
+h1{
+    text-align: center;
+    font-weight: bold;
+    font-family:  Tahoma, Verdana, sans-serif;
+    text-shadow: 3px 3px  #999999;
+
+}
+
+.cotainer{
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+    border-color: gray;
+    border-style: solid;
+    overflow: hidden;
+    display: grid;
+    grid-template-columns: 550px 250px;
+  
+}
+
+div.header1{
+    background-image: url(/movieImage/rbg.png);
+}
+
+span{
+    font-size: 48pt;
+    color: red;
+    font-weight: bold;
+    vertical-align: bottom;
+}
+
+.text{
+    border-style: solid;
+    border-color: gray;
+    border-radius: 10px;
+    background-color: #E8DC9B;
+    padding: 5px;
+    min-height: 34px;
+}
+
+.comment img{
+ float: left;
+}
+
+.commentBox{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 10px;
+    margin: 10px;
+}
+
+p{
+    font-size: 0.9vw;
+    font-weight: bold;
+}
+.text p img{
+    padding-right: 5px;
+
+
+}
+.bottom{
+    margin-top: -20px;
+    background-color: #A2B964;
+    padding: 10px;
+}
+.end{
+    background-color: #A2B964;
+    text-align: center;
+    height: 24px;
+    padding-bottom: 8px;
+}
+.validator {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    opacity: 50%;
+}
+
+dt{
+    font-weight: bold;
+    font-size: 8pt;
+    margin: 10px;
+}
+
+.person p{ 
+    font-weight: lighter;
+}
