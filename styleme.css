@@ -1,27 +1,28 @@
 
 body{
-    background-color:#3a2b2b;
-    margin-right: 300px;
-    margin-right: 300px;
-    padding-left: 300px;
-    padding-right: 300px;
+    background-color:#9e8b8b;    
     line-height: 1;
    
+}
+.content{
+    width: 700px;
+    height: 700px;
+    margin: auto;
+    background-color: #3a2b2b;
+    margin-top: 50px;
+    border-radius: 4px;
+    border-style: double;
 }
 h1{
     color: rgb(70, 33, 7);
     text-align: center;
     background-color: rgb(145, 126, 52);
-    max-width: 700px;
-
 }
 
 h2{
     color: rgb(70, 33, 7);
     background-color: rgb(145, 126, 52);
-    border: 1.5px dotted cornsilk;
-    max-width: 700px;
-
+    border: 1.5px  cornsilk;
 }
 
 p{
