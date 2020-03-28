@@ -1,0 +1,53 @@
+
+body{
+    background-color: black;
+  
+}
+
+div.container{
+    width: 1000px;
+    height: 500px;
+    margin: auto;
+    background-color: whitesmoke;
+    margin-top: 100px;
+}
+
+.form{
+  padding-left: 150px;
+  padding-top: 100px;
+  
+}
+
+label{
+    font-size: large;
+    font-weight: bold;
+    
+}
+label.dis{
+ font-weight: lighter;
+}
+input{
+    height: 40px;
+    width: 450px;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+input[type=checkbox]{
+    height: 20px;
+    width: 20px;
+}
+input[type=submit]{
+    background-color: rgb(86, 86, 243);
+    height: 40px; 
+    width: 140px;  
+    border-radius: 4px;
+    margin-top: 10px;
+    font-weight: bolder;
+}
+
+span{
+  height: 30px;
+  margin-bottom: 20px;
+}
