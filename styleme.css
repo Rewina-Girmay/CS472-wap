@@ -5,8 +5,8 @@ body{
    
 }
 .content{
-    width: 700px;
-    height: 700px;
+    width: 800px;
+    height: 800px;
     margin: auto;
     background-color: #3a2b2b;
     margin-top: 50px;
@@ -32,9 +32,8 @@ p{
     color: cornsilk;
 }
 .mood{
-    width: 350px;
-    height: 320px;
-   
+    height: 300px;
+    width: 300px;
 }
 li{
     color: cornsilk;
