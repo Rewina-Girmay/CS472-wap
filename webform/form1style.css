@@ -26,9 +26,7 @@ label{
     font-weight: bold;
     
 }
-label.dis{
- font-weight: lighter;
-}
+
 input{
     height: 40px;
     width: 450px;
@@ -53,4 +51,5 @@ input[type=submit]{
 span{
     display: inline-block;
     margin-bottom: 20px;
+    opacity: 0.5;
 }

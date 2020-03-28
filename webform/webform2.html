@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="">
+
+   <head>
+       <meta charset="utf-8"/>
+       <title>web form second</title>
+       <link rel="stylesheet" href="form2style.css"/>
+   </head>
+
+   <body>
+      <div class="container">
+         <div class="header">
+            
+            <span id="title">MUM Golden Dome Market : : : SRM System</span> 
+              <ul id="menu">
+                  <li>Product</li> 
+                  <li>Suppliers</li>
+              </ul>
+
+              <div class="signout">
+                 <span>Hello!</span>
+                 <button type="button" onclick="alert('Signed out!')">Sign out</button>
+            </div>
+         </div>   
+         <h1>New Product Form</h1>
+         <div class="content">
+          
+            
+        <div>
+            <label id="pnumber">Product Number</label><br/>
+            <input id="pnum" name="pnum" type="text"/>
+        </div>
+
+        <div>
+            <label id="quantitys">Quantity In Stock</label><br/>
+            <input id="quantity" name="quantity" type="text" placeholder="0"/>
+        </div>
+
+        <div>
+            <label id="names">Name</label><br/>
+            <input id="name" name="name" type="text"/>
+        </div>
+           
+        
+        <div>
+            <label id="supply">Supplier:</label><br/>
+            <select name="supplier">
+                <option selected>Select Supplier</option>
+                <option>Supplier1</option>
+                <option>Supplier1</option>
+                <option>Supplier1</option>
+            </select>
+        </div>
+
+        <div>
+            <label id="price">Unit Price</label><br/>
+            <input id="uprice" name="uprice" type="text" placeholder="0.0"/>
+        </div>
+    
+
+        <div>
+            <label id="dated">Date Supplied</label><br/>
+            <input id="sdate" name="sdate" type="date" placeholder="yyyy-mm-dd"/><br/>
+            <span id="date">Enter valid date</span>
+        </div>
+
+
+         </div>
+
+      <div class="btn"> 
+          <input id="reset" name="reset" type="reset"/>
+          <button type="button" onclick="alert('Canceled!')">Cancel</button>
+          <button id="btn1" type="button" onclick="alert('Produt Added!')">Add Product</button>
+         
+      </div>
+      </div>
+
+   </body>
+
+
+</html>
