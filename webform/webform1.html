@@ -5,6 +5,7 @@
          <meta charset="utf-8"/>
         <title>web form for email</title>   
         <link rel="stylesheet" href="form1style.css"/>
+        
      </head>
 
      <body>
@@ -17,10 +18,12 @@
           <label for="password">Password</label><br/>
            <input id="password" type="password" placeholder="password"  pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{10,}" /><br/>
            <input  id="check" type="checkbox"/>Check me out<br/>
-           <input id="submit" type="submit"/>
+           <input id="submit" type="submit" onclick="printValue();"/>
+
         </form>
     </div>
     </div>
+     <script src="jscript.js" type="text/javascript"></script>
      </body>
 
       
