@@ -1,0 +1,52 @@
+body{
+    background-color: rgb(235, 228, 228);
+
+
+}
+
+.header{
+    height: 300px;
+  background-image: url("./images/home.jpg");
+  padding-left: 130px;
+    padding-top: 33px;
+    background-size: cover;
+}
+
+.content{
+    display: grid;
+    grid-template-columns: 400px 900px;
+}
+
+img#profile{
+    border-radius: 70%;
+    width : 250px; 
+    height : 250px
+}
+
+.displaylist{
+    font-weight: bold;
+    color: black;  
+    font-size: 20px;
+    
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+
+a:hover{
+    color: blue;
+   
+}
+
+.discription{
+    font-size: 20px;
+    font-style: italic;
+    color: black;
+}
+li{
+    padding-bottom: 10px;
+}
+.validator{
+    float: right;
+}
