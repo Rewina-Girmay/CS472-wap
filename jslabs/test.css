@@ -1,0 +1,6 @@
+body{
+    background-color: rgb(179, 159, 159);
+    display: grid;
+    grid-template-columns: auto auto;
+}
+

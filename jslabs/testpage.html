@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+
+<html>
+        
+    <head>
+       <title>Jscript Test Page</title>
+       <script src="jscript.js"></script>
+       <link rel="stylesheet" href="test.css"/>
+    </head>
+
+    <body>
+   
+    <div>
+        <h1>Answer to Question 7</h1>
+        <p>Answer to question 07 <br/>
+                var add = ( function (){ <br/>
+                   var counter = 0;<br/>
+                    return function (){<br/>
+                             return counter += 1 ;<br/>
+           }}) ();<br/>
+           
+              = from the above declaration the free variable<br/>
+              is counter in the context of the function closure.<br/>
+           
+              = free variable: A variable refered to by a function that is not one of its<br/>
+                parameters or local variables.<br/>
+             = that is why counter is free variable which isnot defined <br/>
+             in the inner function but returned by the inner function with a reference to <br/>
+             it.<br/>
+           </p>
+    </div>
+
+    <div>
+        <h1>Answer to Question 9</h1>
+        <p> The simple solution to remove all the names from Global<br/>
+            namespace is to use Module pattern. <br/>
+           Module pattern enable us to declare and call functions immediately.<br/>
+           • Declare-and-call protects your code and avoid globals<br/> 
+           • Avoids common problem with namespace/name collisions  </p>
+    </div>
+    </body>
+  
+</html>
