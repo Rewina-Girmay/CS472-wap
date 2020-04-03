@@ -5,7 +5,9 @@
        <meta charset="utf-8"/>
        <title>web form second</title>
        <link rel="stylesheet" href="form2style.css"/>
-   </head>
+       <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"> </script>
+       <script src="form2.js"></script>
+    </head>
 
    <body>
       <div class="container">
@@ -23,9 +25,11 @@
             </div>
          </div>   
          <h1>New Product Form</h1>
+         
+    <form id="forms" method="POST">
          <div class="content">
           
-            
+       
         <div>
             <label id="pnumber">Product Number</label><br/>
             <input id="pnum" name="pnum" type="text"/>
@@ -63,16 +67,17 @@
             <input id="sdate" name="sdate" type="date" placeholder="yyyy-mm-dd"/><br/>
             <span id="date">Enter valid date</span>
         </div>
-
+   
 
          </div>
-
+       
       <div class="btn"> 
           <input id="reset" name="reset" type="reset"/>
           <button type="button" onclick="alert('Canceled!')">Cancel</button>
-          <button id="btn1" type="button" onclick="alert('Produt Added!')">Add Product</button>
+          <input id="btn1" type="submit" value="Add Product"/>
          
-      </div>
+        </form>
+</div>
       </div>
 
    </body>

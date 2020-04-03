@@ -86,7 +86,7 @@ span#date{
 .btn{
     margin-top: 40px;
     float:right;
-    margin-right: 191px;
+    margin-right: 334px;
 }
 
 div.btn input{
@@ -130,4 +130,5 @@ div.signout button{
 
 div.btn #btn1{
     border-color: rgb(26, 207, 117);
+    width: 143px;
 }
